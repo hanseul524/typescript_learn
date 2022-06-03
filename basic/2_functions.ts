@@ -16,8 +16,8 @@ function sum(a: number, b: number): number {
 sum(10, 20);
 
 // 함수의 옵셔널 파라미터(?)
-function log(a: string, b?: string) {
+function logg(a: string, b?: string) {
 
 }
-log('hello world');
-log('hello ts', 'abc');
+logg('hello world');
+logg('hello ts', 'abc');
